@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+
+        body{
+            background-image: url(../3.jpg)
+
+        }
+        .navbar{
+            background-color: black;
+            border-radius: 13px;
+        }
+        .navbar ul{
+            overflow: auto;
+            
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+
+        .navbar li a{
+            font-family: sans-serif;
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+            
+
+        }
+
+        .navbar li a:hover{
+            color:rgb(255, 110, 35);
+
+        }
+
+        .search{
+            float: right;
+            color: whitesmoke;
+            padding: 12px 75px;
+        }
+
+        .navbar input{
+            border-radius: 13px;
+            border: 2px solid black;
+            padding: 3px 17px;
+            width: 129px;
+        }
+        .container{
+            /* float:left; */
+            border-radius: 13px;
+            background:transparent;
+            /* border:2px solid grey; */
+            margin:34px auto;
+            padding: 34px;
+            width: 666px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{
+            color:rgb(5, 0, 0)
+            background-color:crimson;
+        }
+        a:visited{
+            background-color:yellowgreen;
+
+        }
+
+        a:active{
+            background-color: turquoise;
+
+        }
+        .btn{
+            font-family: sans-serif;
+            font-weight: bold;
+            background-color:crimson;
+            padding: 6px;
+            border:none;
+            cursor:pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+
+        .btn:hover{
+            color: rgb(182, 27, 0);
+            background-color: transparent;
+            /* border: 2px solid black; */
+        }
+    </style>
+</head>
+
+<body>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contanct us</a></li>
+                    <div class="search">
+                        <input type="text" name="search" id="Search" placeholder="Search this website">
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="container" id="cont1">
+            <h3>Mayank sharma</h3>
+            <p>Hii there I am Mayank Sharma. I am from Saharanpur Uttar pradesh.
+                Due to COVID-19 every people survive with a dangerous suffer.
+                But i Hope You are all will be safe In your House so i request you to please safe yourself and save earth.
+            </p>
+            <a href="https://google.com" class="btn">Read More</a>
+            <button class="btn">Contact Us</button>
+        </div>
+        
+</body>
+
+</html>
